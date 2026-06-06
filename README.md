@@ -1,29 +1,18 @@
-# Occupational Safety Analytics Portfolio
+Industrial Safety Dashboard - IHMStefanini Dataset
+Last updated: June 6, 2026
+Total records: 425,426 accidents
 
-## About Me
-I hold a Bachelor of Science in Health Education and I am currently pursuing a Master's degree in Safety and Disaster Management.
+HOW TO USE:
+1. Use slicers on Dashboard sheet to filter by Industry Sector + Accident Level
+2. Click "Reset All Filters" button to clear selections
+3. All charts update automatically
 
-This portfolio showcases my journey into Occupational Health and Safety Analytics, Health Informatics, Risk Management, and Data Analytics.
+DATA DETAILS:
+Source: IHMStefanini_industrial_safety_and_health_database_with_accidents_description.csv
+Key columns: Date, Countries, Industry Sector, Accident Level, Local
+Data cleaning: Removed 1 row with date error in Power Query row 156
 
-## Skills
-- Occupational Health and Safety
-- Risk Assessment
-- Health Education
-- Disaster Management
-- Microsoft Excel
-- SQL (Learning)
-- Power BI (Learning)
-
-## Portfolio Projects
-
-### Project 1: Workplace Accident Analysis
-Status: In Progress
-
-### Project 2: Risk Assessment Dashboard
-Status: Planned
-
-### Project 3: Emergency Preparedness Analytics
-Status: Planned
-
-## Contact
-LinkedIn: Coming Soon
+TECHNICAL NOTES:
+- Data loaded via Power Query to Data Model for performance
+- File saved as .xlsb to reduce size, improve speed on low-spec machines
+- To refresh: Replace source CSV > Data tab > Refresh All
